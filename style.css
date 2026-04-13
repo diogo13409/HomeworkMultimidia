@@ -1,1 +1,19 @@
+@font-face {
+    font-family: 'MinhaTTF';
+    src: url('fontes/fonte.ttf');
+}
+@font-face {
+    font-family: 'MinhaOTF';
+    src: url('fontes/fonte.otf');
+}
+@font-face {
+    font-family: 'MinhaWOFF';
+    src: url('fontes/fonte.woff');
+}
 
+body { font-family: sans-serif; padding: 30px; }
+.font-ttf { font-family: 'MinhaTTF'; }
+.font-otf { font-family: 'MinhaOTF'; }
+.font-woff { font-family: 'MinhaWOFF'; }
+section { margin-bottom: 40px; }
+img { border: 1px solid #ccc; margin-top: 10px; }
